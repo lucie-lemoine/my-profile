@@ -1,0 +1,65 @@
+/* Colors and fonts */
+
+
+
+body{
+	font-family: Times, serif;
+	background-color:#7392B7;
+	color:rgb(50, 50, 50);
+	font-size: 17px;
+
+}
+
+h1{
+
+
+
+}
+
+h2{
+	color:#1E3888;
+	font-size:24px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #242038;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+a:hover {
+	color: #87BCDE;
+
+}
+
+#photo {
+	border-radius: 50%;
+	width: 200px;
+}
+
+.card{
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 1px 35px rgba(50, 50, 93, 1.0);
+	width: 1000px;
+	margin: 20px auto;
+	text-align: center;
+	width: 700px;
+
+}
+
+@media (max-width: 760px) {
+	.card {
+		width: 600px;
+
+}
+
+@media (max-width: 500px) {
+	.card {
+		width: 400px;
+
+}
+
